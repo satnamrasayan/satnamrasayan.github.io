@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1551211830350">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1551526247876">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="127828742" ref="index"/>
+    <file name="index.css" crc="192094064" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -26,8 +26,8 @@
     <file name="dsc_00931_00000.png" crc="4126078890" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u170-23.png" crc="3832844432" ref="index"/>
     <file name="u818-13.png" crc="3922146598" ref="index"/>
+    <file name="u170-25.png" crc="4079532019" ref="index"/>
   </folder>
-  <file name="index.html" crc="511047850" seo="true" mt="1551211769279" redirect="true"/>
+  <file name="index.html" crc="489059161" seo="true" mt="1551526220354" redirect="true"/>
 </manifest>
