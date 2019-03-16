@@ -6,45 +6,86 @@
   <meta name="generator" content="2017.1.0.379"/>
   
   <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
+   // Redirect to phone/tablet as necessary
+(function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
+0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
+0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/index.html");
+
+// Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "index.css"], "outOfDate":[]};
 </script>
   
+  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://satnamrasayan.github.io/phone/index.html"/>
   <title>СТРАНИЦА ОПЛАТЫ</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=192094064" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=399806692" id="pagesheet"/>
    </head>
  <body>
 
   <div class="clearfix" id="page"><!-- column -->
-   <div class="clearfix colelem" id="pu716"><!-- group -->
-    <div class="museBGSize grpelem" id="u716"><!-- simple frame --></div>
-    <div class="clip_frame grpelem" id="u334"><!-- image -->
-     <img class="block" id="u334_img" src="images/260.jpg?crc=292418367" alt="" width="294" height="294"/>
-    </div>
-    <img class="grpelem" id="u170-25" alt="&nbsp;SAT NAM RASAYAN online В течение тысяч лет практика Сат Нам Расаян являлась закрытой традицией йоги, и передавалась в полной тишине от учителя к ученику. Процесс обучения длился несколько лет, пока ученик не проявлял способность распознать и сохранить состояние внутренней тишины - Шуньи. Практика этого искусства признавались как высшее достижение в Йоге. ДАТА: 02/03/2019 время: 21:30 трансляция будет проходит в instagram @medvedovskaia в прямом эфире" width="882" height="279" src="images/u170-25.png?crc=4190491536"/><!-- rasterized frame -->
-    <div class="clip_frame grpelem" id="u294"><!-- image -->
-     <img class="block" id="u294_img" src="images/online.png?crc=449861257" alt="" width="34" height="34"/>
-    </div>
-    <img class="grpelem" id="u344-4" alt="ЗАПИСАТЬСЯ НА ЦЕЛИТЕЛЬНЫЙ СЕАНС" width="533" height="101" src="images/u344-4.png?crc=472885841"/><!-- rasterized frame -->
-    <div class="clip_frame grpelem" id="u349"><!-- image -->
-     <img class="block" id="u349_img" src="images/rodentia-icons_go-down.png?crc=498821151" alt="" width="112" height="106"/>
-    </div>
-    <div class="grpelem" id="u656"><!-- custom html -->
-     <iframe src="https://money.yandex.ru/quickpay/button-widget?targets=%D0%A1%D0%90%D0%A2%20%D0%9D%D0%90%D0%9C%20%D0%A0%D0%90%D0%A1%D0%90%D0%AF%D0%9D%20online&default-sum=1300&button-text=11&any-card-payment-type=on&button-size=l&button-color=orange&fio=on&phone=on&mail=on&successURL=&quickpay=small&account=410017642965291&" width="227" height="48" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
-    </div>
-    <div class="clearfix grpelem" id="u834"><!-- group -->
-     <div class="clearfix grpelem" id="pu818-13"><!-- group -->
-      <img class="grpelem" id="u818-13" alt="&nbsp;2000 руб. 1300 руб." width="261" height="60" src="images/u818-13.png?crc=3922146598"/><!-- rasterized frame -->
-      <div class="grpelem" id="u823"><!-- simple frame --></div>
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="ppamphletu1068"><!-- group -->
+     <div class="PamphletWidget clearfix grpelem" id="pamphletu1068"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1071"><!-- none box -->
+       <div class="popup_anchor" id="u1073popup">
+        <div class="Thumb popup_element" id="u1073"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1075popup">
+       <div class="ContainerGroup clearfix" id="u1075"><!-- stack box -->
+        <div class="Container invi clearfix grpelem" id="u1078"><!-- group -->
+         <div class="clearfix grpelem" id="pu349"><!-- column -->
+          <div class="clip_frame colelem" id="u349"><!-- image -->
+           <img class="block" id="u349_img" src="images/rodentia-icons_go-down.png?crc=498821151" alt="" width="112" height="106"/>
+          </div>
+          <div class="clearfix colelem" id="pu944-5"><!-- group -->
+           <img class="grpelem" id="u944-5" alt="&nbsp;ОПЛАТИТЬ УЧАСТИЕ" width="251" height="70" src="images/u944-5.png?crc=57822963"/><!-- rasterized frame -->
+           <div class="grpelem" id="u656"><!-- custom html -->
+            <iframe src="https://money.yandex.ru/quickpay/button-widget?targets=%D0%A1%D0%90%D0%A2%20%D0%9D%D0%90%D0%9C%20%D0%A0%D0%90%D0%A1%D0%90%D0%AF%D0%9D%20online&default-sum=1300&button-text=11&any-card-payment-type=on&button-size=l&button-color=orange&fio=on&phone=on&mail=on&successURL=&quickpay=small&account=410017642965291&" width="227" height="48" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix grpelem" id="pamphletu974"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u977"><!-- none box -->
+       <div class="popup_anchor" id="u979popup">
+        <div class="Thumb popup_element" id="u979"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u981popup">
+       <div class="ContainerGroup clearfix" id="u981"><!-- stack box -->
+        <div class="Container invi clearfix grpelem" id="u984"><!-- group -->
+         <div class="clearfix grpelem" id="pu334"><!-- group -->
+          <div class="clip_frame grpelem" id="u334"><!-- image -->
+           <img class="block" id="u334_img" src="images/260.jpg?crc=292418367" alt="" width="294" height="294"/>
+          </div>
+          <div class="clip_frame grpelem" id="u294"><!-- image -->
+           <img class="block" id="u294_img" src="images/online.png?crc=449861257" alt="" width="34" height="34"/>
+          </div>
+          <div class="museBGSize grpelem" id="u716"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u834"><!-- group -->
+           <div class="clearfix grpelem" id="pu818-13"><!-- group -->
+            <img class="grpelem" id="u818-13" alt="&nbsp;2000 руб. 1300 руб." width="261" height="60" src="images/u818-13.png?crc=3922146598"/><!-- rasterized frame -->
+            <div class="grpelem" id="u823"><!-- simple frame --></div>
+           </div>
+          </div>
+          <img class="grpelem" id="u344-4" alt="ЗАПИСАТЬСЯ НА ЦЕЛИТЕЛЬНЫЙ СЕАНС" width="533" height="101" src="images/u344-4.png?crc=472885841"/><!-- rasterized frame -->
+          <img class="grpelem" id="u170-25" alt="&nbsp;SAT NAM RASAYAN online В течение тысяч лет практика Сат Нам Расаян являлась закрытой традицией йоги, и передавалась в полной тишине от учителя к ученику. Процесс обучения длился несколько лет, пока ученик не проявлял способность распознать и сохранить состояние внутренней тишины - Шуньи. Практика этого искусства признавались как высшее достижение в Йоге. ДАТА: 16/03/2019 время: 20:30 трансляция будет проходит в instagram @medvedovskaia в прямом эфире" width="882" height="279" src="images/u170-25.png?crc=368590959"/><!-- rasterized frame -->
+         </div>
+        </div>
+       </div>
+      </div>
      </div>
     </div>
+    <div class="verticalspacer" data-offset-top="519" data-content-above-spacer="519" data-content-below-spacer="61"></div>
    </div>
-   <div class="verticalspacer" data-offset-top="581" data-content-above-spacer="581" data-content-below-spacer="61"></div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -57,11 +98,13 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.musepolyfill.bgsize","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#pamphletu1068', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:true,displayInterval:100,transitionStyle:'fading',transitionDuration:200,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:false,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu1068 */
+Muse.Utils.initWidget('#pamphletu974', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:true,displayInterval:100,transitionStyle:'fading',transitionDuration:300,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:false,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu974 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -69,6 +112,6 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 
 </script>
   <!-- RequireJS script -->
-  <script src="scripts/require.js?crc=3861931657" type="text/javascript" async data-main="scripts/museconfig.js?crc=278381782" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  <script src="scripts/require.js?crc=3861931657" type="text/javascript" async data-main="scripts/museconfig.js?crc=144853533" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
    </body>
 </html>

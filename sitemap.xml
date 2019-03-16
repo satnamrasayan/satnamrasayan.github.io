@@ -2,17 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://satnamrasayan.github.io/index.html</loc>
-    <lastmod>2019-03-02</lastmod>
+    <lastmod>2019-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://satnamrasayan.github.io/phone/index.html"/>
     <image:image>
-      <image:loc>http://satnamrasayan.github.io/images/260.jpg</image:loc>
+      <image:loc>http://satnamrasayan.github.io/images/rodentia-icons_go-down.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://satnamrasayan.github.io/images/online.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://satnamrasayan.github.io/images/rodentia-icons_go-down.png</image:loc>
+      <image:loc>http://satnamrasayan.github.io/images/260.jpg</image:loc>
     </image:image>
   </url>
 </urlset>

@@ -1,33 +1,53 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1551527663671">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1552739307337">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="192094064" ref="index"/>
+    <file name="index.css" crc="399806692" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="17924269" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="278381782" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="3854337258" ref="index"/>
-    <file name="jquery.watch.js" crc="4240030481" ref="index"/>
-    <file name="require.js" crc="3861931657" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
+    <file name="museutils.js" crc="17924269" ref="phone>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
+    <file name="museconfig.js" crc="144853533" ref="phone>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3854337258" ref="phone>index:index"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="phone>index:index"/>
+    <file name="require.js" crc="3861931657" ref="phone>index:index"/>
+    <file name="webpro.js" crc="416662029" ref="index"/>
+    <file name="musewpslideshow.js" crc="4034900702" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="528673841" ref="index"/>
+    <file name="touchswipe.js" crc="432264157" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="dsc_00931_00000.png" crc="4126078890" ref="index">
+    <file name="260112x112.jpg" crc="4238458482" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="dsc_00931_00000-u1267-fr.png" crc="82201245" ref="phone>index"/>
+    <file name="u1289-23.png" crc="271573850" ref="phone>index"/>
+    <file name="u1302-13.png" crc="3790213069" ref="phone>index"/>
+    <file name="u1360-5.png" crc="220165314" ref="phone>index"/>
+    <file name="rodentia-icons_go-down.png" crc="498821151" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="online.png" crc="449861257" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u944-5.png" crc="57822963" ref="index"/>
     <file name="260.jpg" crc="292418367" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u170-25.png" crc="4190491536" ref="index"/>
-    <file name="online.png" crc="449861257" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u344-4.png" crc="472885841" ref="index"/>
-    <file name="rodentia-icons_go-down.png" crc="498821151" seo="true" ref="index">
+    <file name="dsc_00931_00000.png" crc="4126078890" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="u818-13.png" crc="3922146598" ref="index"/>
+    <file name="u344-4.png" crc="472885841" ref="index"/>
+    <file name="u170-25.png" crc="368590959" ref="index"/>
   </folder>
-  <file name="index.html" crc="4162266292" seo="true" mt="1551527647428" redirect="true"/>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="4214598812" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="4092483818" seo="true" mt="1552738801620" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="526790242" seo="true" mt="1552738820578" redirect="true"/>
 </manifest>
