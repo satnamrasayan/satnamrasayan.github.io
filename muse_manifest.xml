@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1552739307337">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1553678566816">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="399806692" ref="index"/>
@@ -21,7 +21,7 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="dsc_00931_00000-u1267-fr.png" crc="82201245" ref="phone>index"/>
-    <file name="u1289-23.png" crc="271573850" ref="phone>index"/>
+    <file name="u1289-23.png" crc="151264336" ref="phone>index"/>
     <file name="u1302-13.png" crc="3790213069" ref="phone>index"/>
     <file name="u1360-5.png" crc="220165314" ref="phone>index"/>
     <file name="rodentia-icons_go-down.png" crc="498821151" seo="true" ref="phone>index:index">
@@ -41,13 +41,13 @@
     </file>
     <file name="u818-13.png" crc="3922146598" ref="index"/>
     <file name="u344-4.png" crc="472885841" ref="index"/>
-    <file name="u170-25.png" crc="368590959" ref="index"/>
+    <file name="u170-25.png" crc="86804348" ref="index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="4214598812" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4092483818" seo="true" mt="1552738801620" redirect="true"/>
+    <file name="index.html" crc="3955283814" seo="true" mt="1553678496200" redirect="true"/>
   </folder>
-  <file name="index.html" crc="526790242" seo="true" mt="1552738820578" redirect="true"/>
+  <file name="index.html" crc="71882567" seo="true" mt="1553678515500" redirect="true"/>
 </manifest>
