@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1553678566816">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1554902852190">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="399806692" ref="index"/>
+    <file name="index.css" crc="4111443631" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
@@ -21,9 +21,9 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="dsc_00931_00000-u1267-fr.png" crc="82201245" ref="phone>index"/>
-    <file name="u1289-23.png" crc="151264336" ref="phone>index"/>
-    <file name="u1302-13.png" crc="3790213069" ref="phone>index"/>
-    <file name="u1360-5.png" crc="220165314" ref="phone>index"/>
+    <file name="u1289-26.png" crc="125653834" ref="phone>index"/>
+    <file name="u1302-13.png" crc="3936805849" ref="phone>index"/>
+    <file name="u1360-5.png" crc="4144884026" ref="phone>index"/>
     <file name="rodentia-icons_go-down.png" crc="498821151" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -32,22 +32,22 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u944-5.png" crc="57822963" ref="index"/>
+    <file name="u944-5.png" crc="4278872994" ref="index"/>
     <file name="260.jpg" crc="292418367" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="dsc_00931_00000.png" crc="4126078890" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u818-13.png" crc="3922146598" ref="index"/>
-    <file name="u344-4.png" crc="472885841" ref="index"/>
-    <file name="u170-25.png" crc="86804348" ref="index"/>
+    <file name="u818-13.png" crc="4239331902" ref="index"/>
+    <file name="u344-4.png" crc="195814626" ref="index"/>
+    <file name="u170-28.png" crc="34031144" ref="index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="4214598812" ref="phone>index"/>
+      <file name="index.css" crc="28055505" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3955283814" seo="true" mt="1553678496200" redirect="true"/>
+    <file name="index.html" crc="10678061" seo="true" mt="1554902767354" redirect="true"/>
   </folder>
-  <file name="index.html" crc="71882567" seo="true" mt="1553678515500" redirect="true"/>
+  <file name="index.html" crc="3807788468" seo="true" mt="1554902754900" redirect="true"/>
 </manifest>
