@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1556119893121">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1557226219553">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="464926941" ref="index"/>
@@ -21,13 +21,15 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="dsc_00931_00000-u1267-fr.png" crc="82201245" ref="phone>index"/>
-    <file name="u1289-26.png" crc="3959958291" ref="phone>index"/>
+    <file name="u1289-26.png" crc="4063748724" ref="phone>index"/>
     <file name="u1302-13.png" crc="3948134378" ref="phone>index"/>
     <file name="u1360-5.png" crc="4144884026" ref="phone>index"/>
     <file name="rodentia-icons_go-down.png" crc="498821151" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="online.png" crc="449861257" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="u944-5.png" crc="4278872994" ref="index"/>
@@ -39,13 +41,13 @@
     </file>
     <file name="u818-13.png" crc="527938199" ref="index"/>
     <file name="u344-4.png" crc="195814626" ref="index"/>
-    <file name="u170-28.png" crc="449528801" ref="index"/>
+    <file name="u170-28.png" crc="399977831" ref="index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="4118793209" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4150010014" seo="true" mt="1556119743634" redirect="true"/>
+    <file name="index.html" crc="34604032" seo="true" mt="1557226202131" redirect="true"/>
   </folder>
-  <file name="index.html" crc="479775851" seo="true" mt="1556119865479" redirect="true"/>
+  <file name="index.html" crc="3878535487" seo="true" mt="1557226187588" redirect="true"/>
 </manifest>
