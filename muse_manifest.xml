@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1563208607452">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="satnamrasayan.github.io" resolutions="1x" timestamp="1563270950354">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3935009098" ref="index"/>
+    <file name="index.css" crc="509122091" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
@@ -40,9 +40,9 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="80980989" ref="phone>index"/>
+      <file name="index.css" crc="295531828" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4289336836" seo="true" mt="1563207230350" redirect="true"/>
+    <file name="index.html" crc="4279133570" seo="true" mt="1563270930557" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4078211498" seo="true" mt="1563206834565" redirect="true"/>
+  <file name="index.html" crc="4099577396" seo="true" mt="1563270890117" redirect="true"/>
 </manifest>
